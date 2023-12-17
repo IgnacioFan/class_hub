@@ -16,5 +16,8 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "express-validator": "^7.0.1"
   }
 }
